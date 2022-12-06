@@ -1,0 +1,13 @@
+/*FOOTER*/
+
+.footer {
+    font-family: $fuenteTitulos;
+    transition: 70ms;
+
+    a {
+        &:hover {
+            font-size: 115%;
+            transition: 70ms;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+/*CARTAS*/
+.cartas {
+    img {
+        width: 300px;
+    }
+    h3, h4, h5 {
+        font-family: $fuenteTitulos;
+    }
+    p {
+        font-family: $fuenteGeneral;
+    }
+}
+
+.botonGuía {
+    border: solid;
+    border-radius: 10px;
+    background: rgb(128,9,9);
+    background: linear-gradient(90deg, rgba(128,9,9,1) 0%, rgba(19,26,110,1) 100%);
+    transition: 70ms;
+    width: 40%;
+    
+    a{
+        text-decoration: none;
+        font-family: $fuenteTitulos;
+        color: white;
+    }
+
+    &:hover {
+        width: 50%;
+        transition: 70ms;
+    }
+}

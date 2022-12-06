@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/*HEADER*/
+body {
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  font-family: "Russo One", sans-serif;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+.titulo .logoChikito {
+  width: 90px;
+}
+.titulo h1 {
+  font-family: "Russo One", sans-serif;
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .fondo {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .titulo {
+    display: none;
+  }
+}
+.tituloCelu {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.tituloCelu .logoChikitoCelu {
+  width: 90px;
+}
+.tituloCelu h2 {
+  font-family: "Russo One", sans-serif;
+  margin-top: 25px;
+}
+
+@media (min-width: 601px) {
+  .tituloCelu {
+    display: none;
+  }
+}
+/*FOOTER*/
+.footer {
+  font-family: "Russo One", sans-serif;
+  transition: 70ms;
+}
+.footer a:hover {
+  font-size: 115%;
+  transition: 70ms;
+}
+
+/*TITULOS*/
+.bronce {
+  margin-left: 20px;
+  font-family: "Russo One", sans-serif;
+  color: #a7501d;
+}
+
+.plata {
+  margin-left: 20px;
+  font-family: "Russo One", sans-serif;
+  color: #c0c0c0;
+}
+
+.oro {
+  margin-left: 20px;
+  font-family: "Russo One", sans-serif;
+  color: #CC9900;
+}
+
+.platino {
+  margin-left: 20px;
+  font-family: "Russo One", sans-serif;
+  color: #97AAC0;
+}
+
+/*LOGROS DE BRONCE*/
+.logrosBronce {
+  margin-left: 20px;
+}
+.logrosBronce img {
+  width: 150px;
+}
+.logrosBronce h3 {
+  font-family: "Russo One", sans-serif;
+  font-size: 150%;
+}
+.logrosBronce p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/*LOGROS DE PLATA*/
+.logrosPlata {
+  margin-left: 20px;
+}
+.logrosPlata img {
+  width: 150px;
+}
+.logrosPlata h3 {
+  font-family: "Russo One", sans-serif;
+  font-size: 150%;
+}
+.logrosPlata p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/*LOGROS DE ORO*/
+.logrosOro {
+  margin-left: 20px;
+}
+.logrosOro img {
+  width: 150px;
+}
+.logrosOro h3 {
+  font-family: "Russo One", sans-serif;
+  font-size: 150%;
+}
+.logrosOro p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/*PLATINO*/
+.logrosPlatino {
+  margin-left: 20px;
+}
+.logrosPlatino img {
+  width: 150px;
+}
+.logrosPlatino h3 {
+  font-family: "Russo One", sans-serif;
+}
+.logrosPlatino p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/*CARTAS*/
+.cartas img {
+  width: 300px;
+}
+.cartas h3, .cartas h4, .cartas h5 {
+  font-family: "Russo One", sans-serif;
+}
+.cartas p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.botonGuía {
+  border: solid;
+  border-radius: 10px;
+  background: rgb(128, 9, 9);
+  background: linear-gradient(90deg, rgb(128, 9, 9) 0%, rgb(19, 26, 110) 100%);
+  transition: 70ms;
+  width: 40%;
+}
+.botonGuía a {
+  text-decoration: none;
+  font-family: "Russo One", sans-serif;
+  color: white;
+}
+.botonGuía:hover {
+  width: 50%;
+  transition: 70ms;
+}
+
+/*MISIONES SECRETAS*/
+.misionesSecretas {
+  margin-left: 5px;
+}
+.misionesSecretas img {
+  width: 600px;
+}
+.misionesSecretas h3 {
+  font-family: "Russo One", sans-serif;
+  font-size: 150%;
+}
+.misionesSecretas p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.misionesSecretas strong {
+  color: bisque;
+}
+
+/*TERMINOS Y CONDICIONES - PRIVACY POLICY*/
+.termsPrivacy {
+  margin-left: 5px;
+}
+.termsPrivacy p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.termsPrivacy a {
+  text-decoration: none;
+}
+
+/* ARMAS DE NERO */
+h2, h3 {
+  font-family: "Russo One", sans-serif;
+  padding-left: 5px;
+}
+
+.armasNero {
+  padding-left: 5px;
+}
+.armasNero .redqueen {
+  width: 100px;
+}
+.armasNero p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.armasNero img {
+  width: 280px;
+}
+
+.armasDante {
+  padding-left: 5px;
+}
+.armasDante .redqueen {
+  width: 100px;
+}
+.armasDante p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.armasDante img {
+  width: 280px;
+}
+
+.armasV {
+  padding-left: 5px;
+}
+.armasV .redqueen {
+  width: 100px;
+}
+.armasV p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.armasV img {
+  width: 280px;
+}
+
+.armasVergil {
+  padding-left: 5px;
+}
+.armasVergil .redqueen {
+  width: 100px;
+}
+.armasVergil p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.armasVergil img {
+  width: 280px;
+}
+
+h2 {
+  font-family: "Russo One", sans-serif;
+  margin-left: 5px;
+}
+
+.parrafoSuperior {
+  margin-left: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.parrafoSuperior a {
+  text-decoration: none;
+}
+.parrafoSuperior strong {
+  color: bisque;
+}
+.parrafoSuperior strong:visited {
+  color: beige;
+}
+
+/*# sourceMappingURL=estilo.css.map */

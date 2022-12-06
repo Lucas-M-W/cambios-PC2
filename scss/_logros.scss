@@ -1,0 +1,86 @@
+/*TITULOS*/
+.bronce {
+    margin-left: 20px;
+    font-family: $fuenteTitulos;
+    color: $colorBronce;
+}
+
+.plata {
+    margin-left: 20px;
+    font-family: $fuenteTitulos;
+    color: $colorPlata;
+}
+
+.oro {
+    margin-left: 20px;
+    font-family: $fuenteTitulos;
+    color: $colorOro;
+}
+
+.platino {
+    margin-left: 20px;
+    font-family: $fuenteTitulos;
+    color: $colorPlatino;
+}
+
+
+/*LOGROS DE BRONCE*/
+.logrosBronce {
+    margin-left: 20px;
+    img {
+        width: 150px;
+    }
+    h3 {
+        font-family: $fuenteTitulos;
+        font-size: 150%;
+    }
+    p {
+        font-family: $fuenteGeneral;
+    }
+    
+}
+
+/*LOGROS DE PLATA*/
+.logrosPlata {
+    margin-left: 20px;
+    img {
+        width: 150px;
+    }
+    h3 {
+        font-family: $fuenteTitulos;
+        font-size: 150%;
+    }
+    p {
+        font-family: $fuenteGeneral;
+    }
+    
+}
+
+/*LOGROS DE ORO*/
+.logrosOro {
+    margin-left: 20px;
+    img {
+        width: 150px;
+    }
+    h3 {
+        font-family: $fuenteTitulos;
+        font-size: 150%;
+    }
+    p {
+        font-family: $fuenteGeneral;
+    }
+}
+
+/*PLATINO*/
+.logrosPlatino {
+    margin-left: 20px;
+    img {
+        width: 150px;
+    }
+    h3 {
+        font-family: $fuenteTitulos;
+    }
+    p {
+        font-family: $fuenteGeneral;
+    }
+}

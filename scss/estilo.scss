@@ -1,0 +1,26 @@
+@import "variables", "header" , "footer" , "logros", "cartas-de-personajes" , "misiones" , "terms-privacy" , "armas";
+
+h2 {
+    font-family: $fuenteTitulos;
+    margin-left: 5px;
+}
+
+.parrafoSuperior {
+    margin-left: 10px;
+    font-family: $fuenteGeneral;
+    a {
+        text-decoration: none;
+        
+    }
+    strong {
+        color: bisque;
+        &:visited {
+            color: beige;
+        }
+    }
+}
+
+
+
+
+
