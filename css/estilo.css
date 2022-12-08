@@ -177,7 +177,7 @@ body {
   margin-left: 5px;
 }
 .misionesSecretas img {
-  width: 600px;
+  width: 60%;
 }
 .misionesSecretas h3 {
   font-family: "Russo One", sans-serif;
@@ -259,6 +259,7 @@ h2, h3 {
   width: 280px;
 }
 
+/* GUÍA DE DANTE */
 h2 {
   font-family: "Russo One", sans-serif;
   margin-left: 5px;
